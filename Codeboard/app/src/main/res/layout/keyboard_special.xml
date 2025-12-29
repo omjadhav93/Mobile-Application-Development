@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboardSpecial"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#222222"
+    android:gravity="center">
+
+    <!-- Symbols Row 1 -->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp">
+
+        <Button android:id="@+id/keyAdd" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="+" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyMulti" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="*" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyEquals" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="=" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyAt" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="@" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyDoller" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="$" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyUnderScore" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="_" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyLesserThan" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="&lt;" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyGreaterThan" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="&gt;" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyCurlyOpen" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="{" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyCurlyClose" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="}" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+    </LinearLayout>
+
+    <!-- Symbols Row 2 -->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp">
+
+        <Button android:id="@+id/keyDiv" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="/" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keySub" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="-" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyMod" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="%" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyAnd" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="&amp;" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyBackSlash" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="\\" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keySingleQuot" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="'" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyColon" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text=":" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyCircleOpen" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="(" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyCircleClose" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text=")" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+
+    </LinearLayout>
+
+    <!-- Symbols Row 3 -->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/keyShift2"
+            android:layout_width="57dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="SHIFT"
+            android:text="Shift"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+        <Button android:id="@+id/keyXor" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="^" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyOr" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="|" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyQue" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="?" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyDoubleQuot" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="&quot;" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keyComma" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="," android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keySquareOpen" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="[" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+        <Button android:id="@+id/keySquareClose" android:layout_width="33dp" android:layout_height="40dp" android:textColor="#FFFFFF" android:layout_margin="2dp" android:text="]" android:tag="ALPHA" android:textSize="16sp" android:background="@drawable/key_background"/>
+
+        <Button
+            android:id="@+id/keyBack"
+            android:layout_width="47dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="BACK"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

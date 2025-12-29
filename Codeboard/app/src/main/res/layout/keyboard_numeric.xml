@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="4dp">
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button style="@style/KeyStyleNum" android:text="1"/>
+        <Button style="@style/KeyStyleNum" android:text="2"/>
+        <Button style="@style/KeyStyleNum" android:text="3"/>
+    </LinearLayout>
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button style="@style/KeyStyleNum" android:text="4"/>
+        <Button style="@style/KeyStyleNum" android:text="5"/>
+        <Button style="@style/KeyStyleNum" android:text="6"/>
+    </LinearLayout>
+
+    <!-- Row 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button style="@style/KeyStyleNum" android:text="7"/>
+        <Button style="@style/KeyStyleNum" android:text="8"/>
+        <Button style="@style/KeyStyleNum" android:text="9"/>
+    </LinearLayout>
+
+    <!-- Row 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button style="@style/KeyStyleNum" android:text="."/>
+        <Button style="@style/KeyStyleNum" android:text="0"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_margin="3dp"
+            android:text="⌫"
+            android:tag="BACK"
+            android:background="@drawable/key_background"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

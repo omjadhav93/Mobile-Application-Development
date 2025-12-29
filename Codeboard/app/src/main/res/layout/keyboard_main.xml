@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboardAlpha"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#222222"
+    android:padding="5dp">
+
+    <!-- FIXED NUM ROW -->
+    <include layout="@layout/keyboard_num"/>
+
+    <!-- DYNAMIC AREA (Alpha / Special swap here) -->
+    <FrameLayout
+        android:id="@+id/keyContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Actual alpha keys -->
+        <include
+            android:id="@+id/alphaKeys"
+            layout="@layout/keyboard_alpha"/>
+    </FrameLayout>
+
+    <!-- FIXED BOTTOM ROW -->
+    <include layout="@layout/keyboard_bottom"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+# ===== Gradle =====
+.gradle/
+build/
+**/build/
+
+# ===== Local config =====
+local.properties
+
+# ===== Android Studio / IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== OS generated =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== APK / AAB outputs =====
+*.apk
+*.aab
+
+# ===== NDK =====
+.externalNativeBuild/
+.cxx/
+
+# ===== Keystore (security) =====
+*.jks
+*.keystore
+
+# ===== Kotlin =====
+*.kotlin_module
+
+# ===== Lint =====
+lint/intermediates/
+lint/generated/
+lint/outputs/
+
+# ===== Temporary =====
+tmp/
+.cache/

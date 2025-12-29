@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+android:gravity="center"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/keyCtrl"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="CTRL"
+    android:text="Ctrl"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/keyAlt"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="keyAlt"
+    android:text="Alt"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/keySpace"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="SPACE"
+    android:text="CodeBoard"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/keyDot"
+    android.text="."
+    android:layout_width="33dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="ALPHA"
+    android:text="."
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/keyAt"
+    android:layout_width="33dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="ALPHA"
+    android:text=";"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/keyEnter"
+    android:layout_width="53dp"
+    android:layout_height="40dp"
+    android:layout_margin="2dp"
+    android:tag="ENTER"
+    android:text="Enter"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/key_background"
+    android:textSize="16sp" />
+</LinearLayout>

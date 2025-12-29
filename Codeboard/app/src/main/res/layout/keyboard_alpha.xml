@@ -1,0 +1,356 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboardAlphabets"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#222222"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- QWERTY Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/keyQ"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="q"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyW"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="w"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyE"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="e"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyR"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="r"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyT"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="t"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyY"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="y"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyU"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="u"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyI"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="i"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyO"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="o"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyP"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="p"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- QWERTY Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/keyCaps"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/capslock"
+            android:background="@drawable/key_background"
+            android:tag="CAPS" />
+
+        <Button
+            android:id="@+id/keyA"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="a"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyS"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="s"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyD"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="d"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyF"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="f"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyG"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="g"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyH"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="h"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyJ"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="j"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyK"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="k"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyL"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="l"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- QWERTY Row 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/keyShift"
+            android:layout_width="57dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="SHIFT"
+            android:text="Shift"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyZ"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="z"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyX"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="x"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyC"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="c"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyV"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="v"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyB"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="b"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyN"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="n"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyM"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="ALPHA"
+            android:text="m"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/keyBack"
+            android:layout_width="47dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:tag="BACK"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/key_background"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

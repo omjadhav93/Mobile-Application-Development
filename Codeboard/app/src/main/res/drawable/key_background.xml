@@ -1,0 +1,25 @@
+<!-- res/drawable/key_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- PRESSED / HOLD -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#666666"/>
+        </shape>
+    </item>
+
+    <!-- TOGGLED ON -->
+    <item android:state_activated="true">
+        <shape>
+            <solid android:color="#3F51B5"/>
+        </shape>
+    </item>
+
+    <!-- DEFAULT -->
+    <item>
+        <shape>
+            <solid android:color="#333333"/>
+        </shape>
+    </item>
+
+</selector>

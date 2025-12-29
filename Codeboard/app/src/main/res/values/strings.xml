@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Codeboard</string>
+    <string name="title_activity_input_method_service">InputMethodService</string>
+</resources>
