@@ -40,7 +40,7 @@ Unlike standard keyboards, Codeboard focuses on **programming-specific keys and 
 
 ## 📸 Sample App Preview
 
-![Codeboard Preview](./screenshots/codeboard.jpg)
+<img src="./screenshots/codeboard.jpg" alt="Tic Tac Toe Preview" style="ascpect-ratio: 1/1; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 10px; height: 500px;"/>
 
 ---
 
